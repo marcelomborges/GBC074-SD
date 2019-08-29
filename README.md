@@ -1,9 +1,9 @@
 # GBC074-SD
 Repositório para a matéria de Sistemas Distribuídos
 
-# Descrição do Projeto:
+## Descrição do Projeto:
 A ideia é criar um Dice Poker, que é uma variação do jogo tradicional de Poker, com a diferença de que este é jogado com dados.
-![](dice2_1024x1024.jpg)
+![](dice2_1024x1024.jpg=512x512)
 
 Quantidade de Jogadores: 2 ou mais.
 O Dice Poker é jogado com 5 dados de 6 faces, numeradas de 1 a 6, onde cada face representa uma das 5 maiores cartas do poker (Da maior para a menor):
@@ -15,9 +15,9 @@ O Dice Poker é jogado com 5 dados de 6 faces, numeradas de 1 a 6, onde cada fac
 | 3     | J     |
 | 2     | 10    |
 | 1     | 9     |
-![](dice3_1024x1024.jpg)
-
+![](dice3_1024x1024.jpg=512x512)
 O jogo terá até 3 rodadas por jogador, e as apostas são tomadas da mesma forma semelhante ao Poker Tradicional.
+
 ## Fases do Jogo:
 1) Apostas: Inicialmente são recolhidas as apostas de todos os jogadores da mesa;
 2) Para cada jogador:
@@ -37,7 +37,7 @@ O jogo terá até 3 rodadas por jogador, e as apostas são tomadas da mesma form
 6) Two Pairs: Dois pares de dados, em que cada par possui o mesmo valor;
 7) Pair: Dois dados mostrando o mesmo valor;
 8) High Die: Os maiores dados são comparados, quem tiver o maior ganha, em empate considera o próximo dado, maior entre os restantes.
-![](dice4_1024x1024.jpg)
+![](dice4_1024x1024.jpg=512x512)
 
 ## Sobre os Módulos e a Arquitetura
 Inicialmente, percebo 2 grandes módulos a serem construídos, o Servidor e o Cliente.
