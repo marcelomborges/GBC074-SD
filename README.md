@@ -3,10 +3,13 @@ Repositório para a matéria de Sistemas Distribuídos
 
 ## Descrição do Projeto:
 A ideia é criar um Dice Poker, que é uma variação do jogo tradicional de Poker, com a diferença de que este é jogado com dados.
-![](dice2_1024x1024.jpg=512x512)
+
+<img src="./dice2_1024x1024.jpg" width="400" height="400">
 
 Quantidade de Jogadores: 2 ou mais.
+
 O Dice Poker é jogado com 5 dados de 6 faces, numeradas de 1 a 6, onde cada face representa uma das 5 maiores cartas do poker (Da maior para a menor):
+
 | Valor | Carta |
 |-------|-------|
 | 6     | A     |
@@ -15,7 +18,9 @@ O Dice Poker é jogado com 5 dados de 6 faces, numeradas de 1 a 6, onde cada fac
 | 3     | J     |
 | 2     | 10    |
 | 1     | 9     |
-![](dice3_1024x1024.jpg=512x512)
+
+<img src="./dice3_1024x1024.jpg" width="400" height="400">
+
 O jogo terá até 3 rodadas por jogador, e as apostas são tomadas da mesma forma semelhante ao Poker Tradicional.
 
 ## Fases do Jogo:
@@ -37,7 +42,8 @@ O jogo terá até 3 rodadas por jogador, e as apostas são tomadas da mesma form
 6) Two Pairs: Dois pares de dados, em que cada par possui o mesmo valor;
 7) Pair: Dois dados mostrando o mesmo valor;
 8) High Die: Os maiores dados são comparados, quem tiver o maior ganha, em empate considera o próximo dado, maior entre os restantes.
-![](dice4_1024x1024.jpg=512x512)
+
+<img src="./dice4_1024x1024.jpg" width="512" height="512">
 
 ## Sobre os Módulos e a Arquitetura
 Inicialmente, percebo 2 grandes módulos a serem construídos, o Servidor e o Cliente.
@@ -47,4 +53,4 @@ Além disso apresentará os valores apostados de cada jogo, e o dinheiro restant
 
 ## Lista de Testes:
 1) Teste de concorrência: Considerando que vários usuários estarão jogando ao mesmo tempo, será necessário alguma forma de controle de jogadas;
-2) Teste de funcionalidades: Demonstrar o funcionamento do jogo em uma sala de jogo, vendo se todas as informações mostradas estão corretas, e se o jogo funciona como deveria;
+2) Teste de funcionalidades: Demonstrar o funcionamento do jogo em uma sala de jogo, vendo se todas as informações mostradas estão corretas, e se o jogo funciona como deveria.
